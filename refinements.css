@@ -1,0 +1,33 @@
+.project-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: auto;
+}
+
+.project-actions .project-link,
+.project-card .project-actions .project-link {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.secondary-link {
+  color: var(--ink);
+  border-bottom: 1px solid #999d95;
+  padding-bottom: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-note {
+  color: #72766e;
+  font: 9px var(--mono);
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .project-actions { gap: 12px; }
+}
