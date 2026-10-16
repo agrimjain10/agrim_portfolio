@@ -1,11 +1,18 @@
-# Agrim Jain Portfolio Redesign
+# Agrim Jain — Portfolio
 
-This is a ready-to-deploy static portfolio. It contains no build step.
+A responsive static portfolio built with HTML, CSS and JavaScript.
 
-## Deploy on Vercel
+## Preview
+Run `python -m http.server 4173` from this folder and open http://localhost:4173.
 
-1. Create a GitHub repository and upload every file in this folder.
-2. Import the repository in Vercel.
-3. Select **Other** as the framework preset and deploy.
+## Deploy
+Upload these files to the GitHub repository linked to Vercel. Use the Other framework preset, no build command, and the repository root as the output directory.
 
-The supplied `Agrim_Resume.pdf` is used by the Resume links. The included `portrait.jpg` keeps the site self-contained; replace it later if you want a different profile photo.
+## Edit
+- index.html: content, project links, experience, education and credentials.
+- styles.css: layout, colour, typography and responsive breakpoints.
+- script.js: email copy action and copyright year.
+- Agrim_Resume.pdf: the supplied resume, unchanged.
+- assets/: portrait and favicon.
+
+Google Fonts supplies DM Sans and Instrument Serif, with system-font fallbacks. Project visuals are explanatory diagrams. ToolPool is hosted on Render and may need time to wake up. TradeDesk's former live demo is unavailable; its source code and MySQL schema are linked instead.
